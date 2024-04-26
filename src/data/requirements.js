@@ -1,150 +1,167 @@
 const req = [
-  { name: "Fish", items: "Log, Cloth, Rope" },
-  { name: "Mushroom", items: "Log, Cloth, Rope" },
-  { name: "Seagull Egg", items: "Log, Cloth, Rope" },
-  { name: "Coconut", items: "Log, Cloth, Rope" },
-  { name: "Drinking Water", items: "Log, Cloth, Rope" },
-  { name: "Alcove Chest", items: "Log, Cloth, Rope" },
-  { name: "Cafe Blue Trinity", items: "Blue Trinity OR Glide " },
   {
-    name: "Cafe Candles Chest (Puppies)",
+    name: "Candle Puzzle Chest",
     items: "Blizzard",
   },
   {
-    name: "Gepetto House Chest",
-    items: "Clear Monstro",
-  },
-  {
-    name: "Gepetto House (Postcard)",
-    items: "Clear Monstro",
-  },
-  {
-    name: "Alleyway Red Trinity",
-    items: "Red Trinity OR 2 High Jumps",
-  },
-  {
-    name: "Oathkeeper Check",
-    items: "Clear Hollow Bastion 1",
-  },
-  {
-    name: "Gizmo Clock (Postcard x2)",
-    items: "Thunder",
-  },
-  {
-    name: "Opposite Armor Reward",
-    items: "Red Trinity",
-  },
-  {
-    name: "Opposite Armor Spell (Aero)",
-    items: "Red Trinity",
-  },
-  {
     name: "Merlin Yellow Trinity",
-    items: "Yellow Trinity OR High Jumpra",
+    items: "Yellow Trinity AND Fire",
   },
   {
-    name: "Merlin Back Chest",
-    items: "Fire to unlock Merlin, Glide",
+    name: "House Chest",
+    items: "Monstro AND High Jump",
   },
   {
-    name: "Spellbinder Check",
-    items: "Fire to unlock Merlin, All tier 1 spells",
-  },
-  {
-    name: "Dream Rod Check",
-    items: "Fire to unlock Merlin, All max spells",
-  },
-  {
-    name: "Dream Shield Check",
-    items: "Fire to unlock Merlin, All mushroom arts",
-  },
-  {
-    name: "Lord Fortune Check",
-    items: "Fire to unlock Merlin, All summons",
-  },
-  {
-    name: "Item Shop List 2",
-    items: "Defeat Guard Armor",
-  },
-  {
-    name: "Item Shop List 3",
-    items: "Seal Agrabah",
-  },
-  {
-    name: "Item Shop List 4",
-    items: "Clear Hollow Bastion 1",
-  },
-  {
-    name: "Cids Shop List 2",
-    items: "Seal Agrabah",
-  },
-  {
-    name: "Cids Shop List 3",
-    items: "Clear Hollow Bastion 1",
-  },
-  {
-    name: "Synth Shop Chests x2",
+    name: "Item Workshop Right Chest",
     items: "Green Trinity",
   },
   {
-    name: "Synth Shop (Postcard)",
+    name: "Item Workshop Left Chest",
     items: "Green Trinity",
   },
   {
-    name: "Synth Shop List 1",
-    items: "Green Trinity",
+    name: "Merlin Glide Chest",
+    items: "Glide AND Fire",
   },
   {
-    name: "Synth Shop List 2",
-    items: "Synth 3 unique items",
+    name: "Queen Left Chest",
+    items: "Evidence OR High Jump OR Glide",
   },
   {
-    name: "Synth Shop List 3",
-    items: "Synth 9 unique items",
+    name: "Queen Right Blue Chest",
+    items: "Evidence OR High Jump OR Glide",
   },
   {
-    name: "Synth Shop List 4",
-    items: "Synth 15 unique items",
-  },
-  {
-    name: "Synth Shop List 5",
-    items: "Synth 21 unique items",
-  },
-  {
-    name: "Synth Shop List 6",
-    items: "Synth 30 unique items",
-  },
-  {
-    name: "Evidence Spell (Blizzard)",
-    items: "Claw Marks OR Clear Wonderland",
-  },
-  {
-    name: "Forest Back Right Chest",
-    items: "Glide OR High Jump",
+    name: "Queen Right Red Chest",
+    items: "Evidence OR High Jump OR Glide",
   },
   {
     name: "Thunder Flowers",
-    items: "Thunder",
+    items: "Evidence AND Thunder",
   },
   {
-    name: "Thunder Flowers Near Trinity",
-    items: "Thunder",
+    name: "Painting Thunder Flowers",
+    items: "Evidence AND Thunder",
   },
   {
-    name: "Tea Party Hedge Chests x2",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Across From Balcony Chest",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Garden Balcony Chest",
+    name: "Forest Glide Chest",
     items: "Glide",
   },
   {
-    name: "Post Cerberus Reward",
-    items: "Entry Pass",
+    name: "Forest Corner Chest",
+    items: "High Jump OR Glide",
+  },
+  {
+    name: "Sideways Room Lamp Chest",
+    items: "Evidence",
+  },
+  {
+    name: "Above Lotus Forest Chests x2",
+    items: "Glide",
+  },
+  {
+    name: "Bear and Clock Puzzle Chest",
+    items: "Evidence",
+  },
+  {
+    name: "Across From Bizarre Room Chest",
+    items: "Glide",
+  },
+  {
+    name: "Forest White Trinity",
+    items: "Evidence AND White Trinity",
+  },
+  {
+    name: "Hippos Right Chest",
+    items: "High Jump OR Glide",
+  },
+  {
+    name: "Waterfall White Trinity",
+    items: "Slides AND White Trinity",
+  },
+  {
+    name: "Waterfall Chests (x4)",
+    items: "Slides",
+  },
+  {
+    name: "Boat Chest",
+    items: "Glide",
+  },
+  {
+    name: "Left Cliff Chest",
+    items: "4 Torn Pages AND High Jump OR Glide",
+  },
+  {
+    name: "Right Tre Alcove Chest",
+    items: "4 Torn Pages AND High Jump OR Glide",
+  },
+  {
+    name: "Giant Pot Chest",
+    items: "4 Torn Pages",
+  },
+  {
+    name: "Main Street High Palace Gates Chest",
+    items: "High Jump OR Glide",
+  },
+  {
+    name: "Palace Gates High Opposite to Palace Chest",
+    items: "High Jump",
+  },
+  {
+    name: "Palace Gates High Close to Palace Chest",
+    items: "High Jump OR Glide",
+  },
+  {
+    name: "Cave Entrance Tall Tower Chest",
+    items: "Glide",
+  },
+  {
+    name: "Bottomless Hall Pillar Chest",
+    items: "High Jump OR Glide",
+  },
+  {
+    name: "Hidden Room Chests (x2)",
+    items: "Yellow Trinity OR High Jump",
+  },
+  {
+    name: "Chamber 6 1st Platform Chest",
+    items: "High Jump",
+  },
+  {
+    name: "Chamber 6 2nd Platform Chest",
+    items: "High Jump",
+  },
+  {
+    name: "Chamber 6 Top Chest",
+    items: "High Jump",
+  },
+  {
+    name: "Ursula Lair Urchin Chest",
+    items: "Fire",
+  },
+  {
+    name: "Bridge Chests (x3)",
+    items: "Jack in the Box",
+  },
+  {
+    name: "Cemetary Chests (x4)",
+    items: "Jack in the Box AND Fire",
+  },
+  {
+    name: "Manor Chests (x5)",
+    items: "Jack in the Box",
+  },
+  {
+    name: "Manor Red Trinity Chest",
+    items: "Jack in the Box AND Red Trinity",
+  },
+  {
+    name: "High Tower Chest",
+    items: "High Jump",
+  },
+  {
+    name: "Pumpkin Mouth Chests (x2)",
+    items: "High Jump AND Glide",
   },
   {
     name: "Blizzara Chest (MISSABLE)",
@@ -155,151 +172,51 @@ const req = [
     items: "Blizzaga",
   },
   {
-    name: "Cerberus Reward",
-    items: "Entry Pass",
+    name: "High Platform Boat Side",
+    items: "High Jump OR Glide",
   },
   {
-    name: "Hero License Check",
-    items: "Entry Pass",
-  },
-  {
-    name: "Olympia Check",
-    items: "Clear Phil, Pegasus, Herc Cup",
-  },
-  {
-    name: "Ice Titan",
-    items: "Entry Pass",
-  },
-  {
-    name: "Sephiroth",
-    items: "Entry Pass",
-  },
-  {
-    name: "Defeat Sabor Reward",
-    items: "Slides",
-  },
-  {
-    name: "Clayton Spell (Cure)",
-    items: "Slides",
-  },
-  {
-    name: "Waterfall (x4)",
-    items: "Slides",
-  },
-  {
-    name: "Seal Keyhole Reward (x2)",
-    items: "Slides",
-  },
-  {
-    name: "Seal Keyhole Trinity Reward",
-    items: "Slides",
-  },
-  {
-    name: "Main Street Right High Chest",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Palace Gates Red High Chest",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Palace Gates Blue High Chest",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Cave Entrance Pillar Chest",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Hidden Room Puzzle (x2)",
-    items: "Yellow Trinity OR High Jump",
-  },
-  {
-    name: "Top Chest Left of Start",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Top Chest Right of Start",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Top Chest near Ship",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Mid Level Chest near Ship",
-    items: "Glide OR High Jump",
+    name: "High Platform Across From Boat",
+    items: "High Jump OR Glide",
   },
   {
     name: "Gepetto Ship Green Trinity",
-    items: "Green Trinity, Glide OR High Jump",
+    items: "Green Trinity AND High Jump OR Glide",
   },
   {
-    name: "Chamber 6 1st Platform Chest",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Chamber 6 2nd Platform Chest",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Parasite Cage 2 Spell (Stop)",
-    items: "Glide OR High Jump",
-  },
-  {
-    name: "Town Ledge Chest",
+    name: "Chamber 5 Platform Chest",
     items: "High Jump",
   },
   {
-    name: "Pumpkin Mouth Chests (x2)",
-    items: "High Jump, Glide",
+    name: "Chamber 3 Platform Above 2 Chest",
+    items: "High Jump",
   },
   {
-    name: "Bridge Chests (x3)",
-    items: "Jack-in-the-Box",
+    name: "Chamber 3 Platform Near 6 Chest",
+    items: "High Jump",
   },
   {
-    name: "Cemetary Chests (x4)",
-    items: "Jack-in-the-Box, Seal Halloween Town",
+    name: "Chamber 5 Barrel Chest",
+    items: "High Jump",
   },
   {
-    name: "Castle Chests (x5)",
-    items: "Jack-in-the-Box",
+    name: "Deck White Trinity",
+    items: "Green Trinity AND White Trinity",
   },
   {
-    name: "Oogie Chamber Reward",
-    items: "Jack-in-the-Box",
+    name: "Deck Crow's Nest Chest",
+    items: "Green Trinity",
   },
   {
-    name: "Oogie Manor Spell (Gravity)",
-    items: "Jack-in-the-Box",
-  },
-  {
-    name: "Oogie Manor Reward",
-    items: "Jack-in-the-Box",
-  },
-  {
-    name: "Manor Red Trinity",
-    items: "Jack-in-the-Box, Red Trinity",
-  },
-  {
-    name: "Ursula 1 Reward",
-    items: "Mermaid Kick",
-  },
-  {
-    name: "Big Ursula Spell (Thunder)",
-    items: "Mermaid Kick",
-  },
-  {
-    name: "Big Ursula Reward x2",
-    items: "Mermaid Kick",
+    name: "Tinkerbell Cabin Chest",
+    items: "Green Trinity",
   },
   {
     name: "Hold Rafters Chests (x2)",
-    items: "Glide OR Defeat Hook",
+    items: "Green Trinity",
   },
   {
-    name: "Shadow Sora",
+    name: "Clock Tower Chest",
     items: "Green Trinity",
   },
   {
@@ -307,112 +224,427 @@ const req = [
     items: "Green Trinity",
   },
   {
-    name: "Tinkerbell Chest",
-    items: "Green Trinity",
-  },
-  {
-    name: "Pre Hook Mob Spell (Cure)",
-    items: "Green Trinity",
-  },
-  {
-    name: "Hook Rewards (x2)",
-    items: "Green Trinity",
-  },
-  {
-    name: "Deck Crow's Nest Chest",
-    items: "Green Trinity",
-  },
-  {
-    name: "Deck White Trinity",
-    items: "Green Trinity, White Trinity",
-  },
-  {
-    name: "Clock Tower Chest",
-    items: "Green Trinity",
-  },
-  {
-    name: "Seal Keyhole Rewards (x4)",
-    items: "Green Trinity",
+    name: "2nd Section Underwater Chest",
+    items:
+      "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder OR High Jump OR Glide",
   },
   {
     name: "Right Ice Platform Chest",
-    items: "Blizzard",
+    items: "High Jump OR Glide OR Blizard",
   },
   {
     name: "Left Ice Platform Chest",
-    items: "Blizzard",
+    items: "High Jump OR Glide OR Blizard",
   },
   {
     name: "Top Ice Platform Chest",
-    items: "Glide OR Combo Master",
-  },
-  {
-    name: "2nd Section Underwater Chest",
-    items: "Defeat Riku 2",
-  },
-  {
-    name: "Platform Chest",
-    items: "Early access with High Jumpra or Dumbo",
-  },
-  {
-    name: "Windows Chest",
-    items: "Early access with High Jumpra or Dumbo",
+    items:
+      "High Jump OR Glide OR Blizard AND Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
   },
   {
     name: "Gravity Platform Chest",
-    items: "Early access with Glide OR High Jumpra OR Dumbo",
+    items:
+      "Gravity AND Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
   },
   {
-    name: "Waterway Platform Chest",
-    items: "Blizzard, High Jump",
+    name: "Pillar Chest",
+    items:
+      "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder OR High Jump OR Glide",
+  },
+  {
+    name: "High Pillar Chest",
+    items:
+      "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder OR High Jump OR Glide",
+  },
+  {
+    name: "Great Crest Lower Chest",
+    items:
+      "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder OR High Jump OR Glide",
+  },
+  {
+    name: "Great Crest After Battle Chest",
+    items:
+      "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder OR High Jump OR Glide",
+  },
+  {
+    name: "High Tower 1st Gravity Chest",
+    items:
+      "Gravity AND Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder OR High Jump OR Glide",
+  },
+  {
+    name: "High Tower 2nd Gravity Chest",
+    items:
+      "Gravity AND Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder OR High Jump OR Glide",
+  },
+  {
+    name: "High Tower Above Sliding Blocks Chest",
+    items:
+      "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder OR High Jump OR Glide",
+  },
+  {
+    name: "Top of Bookshelf Carousel Chest",
+    items: "Glide OR Green Trinity",
+  },
+  {
+    name: "Bookshelf Chest",
+    items: "Glide OR Green Trinity",
+  },
+  {
+    name: "Lift Stop Library Node After Switch Chest",
+    items:
+      "Gravity AND Green Trinity AND Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Lift Stop Library Node Chest",
+    items: "Gravity AND Green Trinity",
+  },
+  {
+    name: "Lift Stop Under High Tower Chest",
+    items:
+      "Glide AND Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Lift Stop Outside Library Chest",
+    items: "Gravity AND Green Trinity",
+  },
+  {
+    name: "Lift Stop Heartless Door Gravity Chest",
+    items:
+      "Gravity AND Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Waterway Bubble Chest",
+    items: "Blizzard AND High Jump",
+  },
+  {
+    name: "Grand Hall Right Chest",
+    items: "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Grand Hall Left Chest",
+    items: "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Grand Hall Middle Chest",
+    items: "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
   },
   {
     name: "Emblem Room Chest",
     items: "High Jump",
   },
   {
-    name: "Emblem Piece (Flame)",
-    items: "High Jumpra OR Khama and Theon, Fire",
-  },
-  {
-    name: "Emblem Piece (Statue)",
-    items: "High Jumpra OR Khama and Theon, Red Trinity",
-  },
-  {
-    name: "Emblem Piece (Fountain)",
-    items: "High Jumpra OR Khama and Theon",
-  },
-  {
-    name: "Emblem Piece (Chest)",
-    items: "High Jumpra OR Khama and Theon",
-  },
-  {
-    name: "Divine Rose Check",
-    items: "Clear Hollow Bastion 1",
-  },
-  {
-    name: "Aerith Spell (Cure)",
-    items: "Defeat Behemoth",
-  },
-  {
-    name: "Reports 2,4,6,10",
-    items: "Defeat Behemoth",
-  },
-  {
-    name: "Grand Hall Right Chest",
-    items: "Hollow Bastion 2 only",
-  },
-  {
-    name: "Grand Hall Left Chest",
-    items: "Hollow Bastion 2 only",
-  },
-  {
-    name: "Grand Hall Middle Chest",
-    items: "Hollow Bastion 2 only",
-  },
-  {
     name: "Highest Platform",
-    items: "Glide",
+    items: "High Jump AND Glide",
+  },
+  {
+    name: "Ledge Below Spawn Chest",
+    items: "High Jump AND Glide",
+  },
+  {
+    name: "Center of Room Chest",
+    items: "High Jump AND Glide",
+  },
+  {
+    name: "Ledge Across Spawn Chest",
+    items: "High Jump AND Glide",
+  },
+  {
+    name: "Agrabah",
+    items: "High Jump",
+  },
+  {
+    name: "Kairi Oathkeeper Check",
+    items:
+      "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder AND 5 Worlds",
+  },
+  {
+    name: "Defeat Sabor Reward",
+    items: "Slides",
+  },
+  {
+    name: "Clayton Reward",
+    items: "Slides",
+  },
+  {
+    name: "DJ Seal Keyhole Reward (x2)",
+    items: "Slides",
+  },
+  {
+    name: "Trickmaster Reward x2",
+    items: "Evidence",
+  },
+  {
+    name: "Parasite Cage 2 Reward",
+    items: "High Jump",
+  },
+  {
+    name: "Ursula 1 Reward",
+    items: "Fire OR Blizzard OR Thunder OR Gravity OR Stop",
+  },
+  {
+    name: "Big Ursula Reward x2",
+    items: "Mermaid Kick AND Fire OR Blizzard OR Thunder OR Gravity OR Stop",
+  },
+  {
+    name: "AT Seal Keyhole Reward",
+    items: "Mermaid Kick AND Fire OR Blizzard OR Thunder OR Gravity OR Stop",
+  },
+  {
+    name: "Oogie Chamber Rewards x2",
+    items: "Jack in the Box AND Fire",
+  },
+  {
+    name: "Oogie Manor Reward",
+    items: "Jack in the Box AND Fire",
+  },
+  {
+    name: "HT Seal Keyhole Reward",
+    items: "Jack in the Box AND Fire",
+  },
+  {
+    name: "Anti Sora Reward",
+    items: "Green Trinity",
+  },
+  {
+    name: "Encounter Hook Reward",
+    items: "Green Trinity",
+  },
+  {
+    name: "NV Seal Keyhole Rewards (x3)",
+    items: "Green Trinity",
+  },
+  {
+    name: "Defeat Phantom",
+    items:
+      "Green Trinity AND Fira AND Blizzara AND Thundara AND Cura AND Aerora AND Graviga AND Stopra",
+  },
+  {
+    name: "Defeat Hook Rewards (x2)",
+    items: "Green Trinity",
+  },
+  {
+    name: "Maleficent Rewards x2",
+    items: "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Dragon Mal Reward",
+    items: "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Riku 2 Reward",
+    items: "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Behemoth Reward",
+    items: "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Princesses Reward",
+    items: "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Opposite Armor Reward",
+    items: "Red Trinity",
+  },
+  {
+    name: "Undersea Gorge Blizzard Clam",
+    items: "Blizzard",
+  },
+  {
+    name: "Fire Clam",
+    items: "Fire",
+  },
+  {
+    name: "Triton's Palace Thunder Clam",
+    items: "Thunder",
+  },
+  {
+    name: "Hades 44 Yuffie",
+    items: "Phil Cup AND Pegasus Cup AND Herc Cup",
+  },
+  {
+    name: "Hades 40 Behemoth",
+    items: "Phil Cup AND Pegasus Cup AND Herc Cup",
+  },
+  {
+    name: "Hades 30 Cerberus",
+    items: "Phil Cup AND Pegasus Cup AND Herc Cup",
+  },
+  {
+    name: "Hades 20 Cloud Leon",
+    items: "Phil Cup AND Pegasus Cup AND Herc Cup",
+  },
+  {
+    name: "Hades 10 Hades",
+    items: "Phil Cup AND Pegasus Cup AND Herc Cup",
+  },
+  {
+    name: "Hades Cup",
+    items: "Phil Cup AND Pegasus Cup AND Herc Cup",
+  },
+  {
+    name: "Hades Cup Solo",
+    items: "Phil Cup AND Pegasus Cup AND Herc Cup",
+  },
+  {
+    name: "Hades Cup Time Trial",
+    items: "Phil Cup AND Pegasus Cup AND Herc Cup",
+  },
+  {
+    name: "Defeat Kurt Zisa",
+    items: "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Defeat Unknown",
+    items: "Hollow Bastion AND Theon AND Red Trinity AND Fire AND Thunder",
+  },
+  {
+    name: "Sephiroth",
+    items: "Phil Cup AND Pegasus Cup AND Herc Cup",
+  },
+  {
+    name: "House Postcard",
+    items: "Monstro AND High Jump",
+  },
+  {
+    name: "Reward 1",
+    items: "Monstro AND High Jump",
+  },
+  {
+    name: "Reward 2",
+    items: "Monstro AND High Jump",
+  },
+  {
+    name: "Reward 3",
+    items: "Monstro AND High Jump",
+  },
+  {
+    name: "Reward 4",
+    items: "Monstro AND High Jump",
+  },
+  {
+    name: "Reward 5",
+    items: "Monstro AND High Jump",
+  },
+  {
+    name: "All Summons Reward",
+    items: "Monstro AND High Jump AND All Summons",
+  },
+  {
+    name: "Pinocchio Shooting Star",
+    items: "Monstro AND High Jump",
+  },
+  {
+    name: "Spellbinder Check",
+    items: "All level 1 magic",
+  },
+  {
+    name: "Dream Rod Check",
+    items: "All level 3 magic",
+  },
+  {
+    name: "Dream Shield Check",
+    items: "All Arts",
+  },
+  {
+    name: "Ice Titan",
+    items: "Phil Cup AND Pegasus Cup AND Herc Cup",
+  },
+  {
+    name: "Rare Nut 1",
+    items: "4 Torn Pages",
+  },
+  {
+    name: "Rare Nut 2",
+    items: "4 Torn Pages AND High Jump OR Glide",
+  },
+  {
+    name: "Rare Nut 3",
+    items: "4 Torn Pages AND High Jump OR Glide",
+  },
+  {
+    name: "Rare Nut 4",
+    items: "4 Torn Pages AND High Jump OR Glide",
+  },
+  {
+    name: "Rare Nut 5",
+    items: "4 Torn Pages AND High Jump OR Glide",
+  },
+  {
+    name: "Owl Cheer",
+    items: "5 Torn Pages",
+  },
+  {
+    name: "Start Fire",
+    items: "3 Torn Pages",
+  },
+  {
+    name: "Break Log",
+    items: "4 Torn Pages",
+  },
+  {
+    name: "Fall Through Top of Tree",
+    items: "4 Torn Pages AND High Jump OR Glide",
+  },
+  {
+    name: "Hi-Potion Experiment",
+    items: "Fire",
+  },
+  {
+    name: "Ether Experiment",
+    items: "Blizzard",
+  },
+  {
+    name: "Replication Experiment",
+    items: "Blizzard",
+  },
+  {
+    name: "Tree House Monkeys Reward",
+    items: "Slides",
+  },
+  {
+    name: "Bamboo Thicket Monkeys Reward",
+    items: "Slides",
+  },
+  {
+    name: "Cliff Monkeys Reward",
+    items: "Slides",
+  },
+  {
+    name: "Climbing Trees Monkeys Reward",
+    items: "Slides",
+  },
+  {
+    name: "Camp Monkeys Reward",
+    items: "Slides",
+  },
+  {
+    name: "Jungle Slider 10",
+    items: "Slides",
+  },
+  {
+    name: "Jungle Slider 20",
+    items: "Slides",
+  },
+  {
+    name: "Jungle Slider 30",
+    items: "Slides",
+  },
+  {
+    name: "Jungle Slider 40",
+    items: "Slides",
+  },
+  {
+    name: "Jungle Slider 50",
+    items: "Slides",
+  },
+  {
+    name: "Olympia Chest",
+    items: "Phil Cup AND Pegasus Cup AND Herc Cup",
+  },
+  {
+    name: "Read Book",
+    items: "Evidence",
   },
 ];
 

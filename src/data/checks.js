@@ -26,8 +26,8 @@ const data = [
     world: "Traverse Town",
     name: "Geppetto's House",
     checks: [
-      "Chest",
-      "Postcard",
+      "House Chest",
+      "House Postcard",
       "Reward 1",
       "Reward 2",
       "Reward 3",
@@ -71,7 +71,6 @@ const data = [
       "Spellbinder Check",
       "Dream Rod Check",
       "Dream Shield Check",
-      "Lord Fortune Check",
     ],
   },
   {
@@ -141,7 +140,7 @@ const data = [
     checks: [
       "Forest Nut Chest",
       "Forest Corner Chest",
-      "Garden Glide Chest",
+      "Forest Glide Chest",
       "Thunder Flowers",
       "Forest White Trinity",
       "Painting Thunder Flowers",
@@ -257,7 +256,7 @@ const data = [
       "Camp Blue Trinity",
       "Tent Chest",
       "Camp Monkeys Reward",
-      "Seal Keyhole Reward (x2)",
+      "DJ Seal Keyhole Reward (x2)",
       "Hi-Potion Experiment",
       "Ether Experiment",
       "Replication Experiment",
@@ -283,7 +282,7 @@ const data = [
       "Palace Gates Low Chest",
       "Palace Gates High Opposite to Palace Chest",
       "Palace Gates High Close to Palace Chest",
-      "Seal Keyhole Rewards x3",
+      "AG Seal Keyhole Rewards x3",
     ],
   },
   {
@@ -365,7 +364,7 @@ const data = [
       "Under Jack's House Chest",
       "Jack's House Doorbell",
       "Lab (Torn Page)",
-      "Town Ledge Chest",
+      "High Tower Chest",
       "Pumpkin Mouth Chests (x2)",
     ],
   },
@@ -389,7 +388,7 @@ const data = [
       "Manor Red Trinity Chest",
       "Oogie Chamber Rewards x2",
       "Oogie Manor Reward",
-      "Seal Keyhole Reward",
+      "HT Seal Keyhole Reward",
     ],
   },
   {
@@ -434,7 +433,7 @@ const data = [
       "Ursula Lair Urchin Chest",
       "Ursula 1 Reward",
       "Big Ursula Reward x2",
-      "Seal Keyhole Reward",
+      "AT Seal Keyhole Reward",
     ],
   },
   {
@@ -460,7 +459,7 @@ const data = [
     name: "London",
     checks: [
       "Clock Tower Chest",
-      "Seal Keyhole Rewards (x3)",
+      "NV Seal Keyhole Rewards (x3)",
       "Defeat Phantom",
     ],
   },

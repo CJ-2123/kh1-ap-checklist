@@ -155,6 +155,25 @@ function Location() {
                               ></input>
                               {check}
                             </label>
+                            {lockedChecks.includes(check) && (
+                              <div
+                                className={`info-container ${
+                                  infoStates[check] ? "show" : ""
+                                }`}
+                              >
+                                <img
+                                  src="images/info-blue.png"
+                                  className="info-popup"
+                                  alt="Info Button"
+                                  onClick={() => handleButtonClick(check)}
+                                />
+                                {infoStates[check] && (
+                                  <div className="info-content">
+                                    {returnRequirements(check)}
+                                  </div>
+                                )}
+                              </div>
+                            )}
                           </li>
                         ))}{" "}
                       </div>

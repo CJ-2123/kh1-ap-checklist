@@ -2,7 +2,7 @@ import World from "./World.jsx";
 import Tracker from "./Tracker.jsx";
 
 function Home() {
-  // Open popout window for hints
+  // Open popout window for item tracker
   function handleOpenPopout() {
     window.open(
       "#/tracker",
