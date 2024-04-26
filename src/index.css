@@ -116,7 +116,7 @@ p {
 
 .tracker {
   right: 10px;
-  position: fixed;
+  display: block;
   float: right;
 }
 
