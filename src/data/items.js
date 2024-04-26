@@ -126,8 +126,22 @@ const items = [
     max: 1,
   },
   {
-    id: "dodge_roll",
-    src: "images/dodgeroll.png",
+    id: "theon_book",
+    src: "images/books.png",
+    opacity: 0.5,
+    filter: "grayscale(75%)",
+    max: 1,
+  },
+  {
+    id: "evidence",
+    src: "images/evidence.png",
+    opacity: 0.5,
+    filter: "grayscale(75%)",
+    max: 1,
+  },
+  {
+    id: "jack_in_the_box",
+    src: "images/jackinthebox.png",
     opacity: 0.5,
     filter: "grayscale(75%)",
     max: 1,
@@ -152,20 +166,6 @@ const items = [
     opacity: 0.5,
     filter: "grayscale(75%)",
     max: 2,
-  },
-  {
-    id: "evidence",
-    src: "images/evidence.png",
-    opacity: 0.5,
-    filter: "grayscale(75%)",
-    max: 1,
-  },
-  {
-    id: "jack_in_the_box",
-    src: "images/jackinthebox.png",
-    opacity: 0.5,
-    filter: "grayscale(75%)",
-    max: 1,
   },
   {
     id: "fire",
@@ -293,27 +293,6 @@ const items = [
     filter: "grayscale(75%)",
     max: 1,
   },
-  // {
-  //   id: "crystal_trident",
-  //   src: "images/crystal_trident.png",
-  //   opacity: 0.5,
-  //   filter: "grayscale(75%)",
-  //   max: 1,
-  // },
-  // {
-  //   id: "khama_book",
-  //   src: "images/khama.png",
-  //   opacity: 0.5,
-  //   filter: "grayscale(75%)",
-  //   max: 1,
-  // },
-  // {
-  //   id: "theon_book",
-  //   src: "images/theon.png",
-  //   opacity: 0.5,
-  //   filter: "grayscale(75%)",
-  //   max: 1,
-  // },
 ];
 
 export default items;
