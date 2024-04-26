@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import items from "../data/items.js";
-import Hints from "./Hints.jsx";
 
 function Tracker() {
   const [imageStyles, setImageStyles] = useState({});
@@ -79,16 +78,7 @@ function Tracker() {
     rows.push(items.slice(i, i + 6));
   }
 
-  // Open popout window for hints
-  function handleOpenPopout() {
-    window.open(
-      "#/hints",
-      "_blank",
-      "toolbar=no,resizeable=yes,width=275,height=625"
-    );
-  }
-
-  // Create item tracker and hint table
+  // Create item tracker
   return (
     <div className="tracker">
       <div>

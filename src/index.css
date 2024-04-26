@@ -120,58 +120,8 @@ p {
   float: right;
 }
 
-.hints {
-  margin-top: 10px;
-  padding: 1px;
-  max-height: 475px;
-  overflow-y: scroll;
-  position: relative;
-}
-
-.hints::-webkit-scrollbar {
-  display: none;
-}
-
-.hint-item  {
-  padding: 2px;
-}
-
-.hints input {
-  background-color: #444;
-  border: none;
-  color: white;
-  width: 170px;
-  font-size: 15px;
-  height: 30px;
-}
-
 input:hover {
   background-color: #555;
-}
-
-.hints img {
-  vertical-align: bottom;
-  margin-right: 5px;
-}
-
-.hints ul {
-  position: absolute;
-  list-style: none;
-  background-color: white;
-  color: black;
-  margin: 0 0 0 35px;
-  padding: 0;
-  width: 150px;
-}
-
-.hints li {
-  padding: 1px;
-  margin: 0;
-  cursor: pointer;
-}
-
-.hints li:hover {
-  background-color: #dddddd;
 }
 
 ul li.active {
