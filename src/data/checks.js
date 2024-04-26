@@ -1,23 +1,4 @@
 const data = [
-  // {
-  //   id: "1",
-  //   world: "Destiny Islands",
-  //   name: "Day 1",
-  //   checks: ["Log", "Cloth", "Rope"],
-  // },
-  // {
-  //   id: "2",
-  //   world: "Destiny Islands",
-  //   name: "Day 2",
-  //   checks: [
-  //     "Fish",
-  //     "Mushroom",
-  //     "Seagull Egg",
-  //     "Coconut",
-  //     "Drinking Water",
-  //     "Alcove Chest",
-  //   ],
-  // },
   {
     id: "3",
     world: "Traverse Town",
@@ -70,7 +51,7 @@ const data = [
       "Alleyway Corner Chest",
       "Alleyway Red Trinity Chest",
       "Waterway Leon",
-      "Waterway Chest",
+      "Waterway Stairs Chest",
       "Waterway White Trinity",
       "Kairi Oathkeeper Check",
       "Gizmo Shop Facade Chest",
@@ -93,30 +74,6 @@ const data = [
       "Lord Fortune Check",
     ],
   },
-  //   {
-  //     id: "42",
-  //     world: "Traverse Town",
-  //     name: "Shops",
-  //     checks: [
-  //       "Item Shop Fan (Postcard)",
-  //       "Item Shop List 1",
-  //       "Item Shop List 2", // after guard amor
-  //       "Item Shop List 3", // after agrabah
-  //       "Item Shop List 4", // after rescuing kairi
-  //       "Cids Shop Chest",
-  //       "Cids Shop List 1",
-  //       "Cids Shop List 2", // after agrabah
-  //       "Cids Shop List 3", // after rescuing kairi
-  //       "Synth Shop Chests x2",
-  //       "Synth Shop (Postcard)",
-  //       "Synth Shop List 1",
-  //       "Synth Shop List 2",
-  //       "Synth Shop List 3",
-  //       "Synth Shop List 4",
-  //       "Synth Shop List 5",
-  //       "Synth Shop List 6",
-  //     ],
-  //   },
   {
     id: "6",
     world: "Traverse Town",
@@ -137,7 +94,7 @@ const data = [
       "30 Puppies",
       "40 Puppies",
       "50 Puppies",
-      "51 Puppies (Torn Page)",
+      "50 Puppies (Torn Page)",
       "60 Puppies",
       "70 Puppies",
       "80 Puppies",
@@ -197,7 +154,7 @@ const data = [
     checks: [
       "Above Lotus Forest Chests x2",
       "Across From Bizarre Room Chest",
-      "Bera and Clock Puzzle Chest",
+      "Bear and Clock Puzzle Chest",
     ],
   },
   {
@@ -350,6 +307,7 @@ const data = [
       "Relic Chamber Jump from Stairs Chest",
       "Silent Chamber Blue Trinity",
       "Hidden Room Chests (x2)",
+      "Defeat Kurt Zisa",
     ],
   },
   {
@@ -400,7 +358,6 @@ const data = [
     ],
   },
   {
-    //LEFT OFF HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     id: "23",
     world: "Halloween Town",
     name: "Town",
@@ -467,7 +424,7 @@ const data = [
     checks: [
       "Ariel's Grotto Chests x3",
       "Undersea Gorge Jammed by Grotto Chest",
-      "Undersea Gorge Blizard Clam",
+      "Undersea Gorge Blizzard Clam",
       "Undersea Gorge Ocean Floor Clam",
       "Undersea Garden Clam",
       "Undersea Cave Clam",
@@ -488,10 +445,10 @@ const data = [
       "Hold Rafters Chests (x2)",
       "Galley Chest",
       "Ship Yellow Trinity (x4)",
-      "Shadow Sora Reward",
+      "Anti Sora Reward",
       "Captain's Cabin Chest",
       "Tinkerbell Cabin Chest",
-      "Pre Hook Mob Reward",
+      "Encounter Hook Reward",
       "Defeat Hook Rewards (x2)",
       "Deck Crow's Nest Chest",
       "Deck White Trinity",
@@ -501,7 +458,11 @@ const data = [
     id: "28",
     world: "Neverland",
     name: "London",
-    checks: ["Clock Tower Chest", "Seal Keyhole Rewards (x3)"],
+    checks: [
+      "Clock Tower Chest",
+      "Seal Keyhole Rewards (x3)",
+      "Defeat Phantom",
+    ],
   },
   {
     id: "29",
@@ -553,9 +514,6 @@ const data = [
       "2nd Floor Carousel Chest 1",
       "2nd Floor Carousel Chest 2",
       "Bookshelf Chest",
-      "Divine Rose Check",
-      "Aerith Spell (Cure)",
-      "Reports 2,4,6,10",
     ],
   },
   {
@@ -588,6 +546,7 @@ const data = [
       "Grand Hall Middle Chest",
       "Behemoth Reward",
       "Princesses Reward",
+      "Defeat Unknown",
     ],
   },
   {
@@ -664,7 +623,7 @@ const data = [
   {
     id: "45",
     world: "100 Acre Wood",
-    name: "Pooh's House",
+    name: "Bouncing Spot",
     checks: [
       "Break Log",
       "Fall Through Top of Tree",

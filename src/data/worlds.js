@@ -1,10 +1,4 @@
 const worlds = [
-  // {
-  //   id: "1",
-  //   name: "Destiny Islands",
-  //   totalChecks: 9,
-  //   bgColor: "sandybrown",
-  // },
   {
     id: "2",
     name: "Traverse Town",
@@ -32,7 +26,7 @@ const worlds = [
   {
     id: "6",
     name: "Agrabah",
-    totalChecks: 35,
+    totalChecks: 36,
     bgColor: "tan",
   },
   {
@@ -56,13 +50,13 @@ const worlds = [
   {
     id: "10",
     name: "Neverland",
-    totalChecks: 12,
+    totalChecks: 13,
     bgColor: "tomato",
   },
   {
     id: "11",
     name: "Hollow Bastion",
-    totalChecks: 45,
+    totalChecks: 43,
     bgColor: "mediumorchid",
   },
   {
