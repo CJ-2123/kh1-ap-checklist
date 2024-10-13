@@ -7,7 +7,7 @@ function Home() {
     window.open(
       "#/tracker",
       "_blank",
-      "toolbar=no,resizeable=yes,width=200,height=450"
+      "toolbar=no,resizeable=yes,width=200,height=500"
     );
   }
 

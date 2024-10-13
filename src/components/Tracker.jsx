@@ -3,7 +3,7 @@ import items from "../data/items.js";
 
 function Tracker() {
   const [imageStyles, setImageStyles] = useState({});
-  const [tooltipId, setTooltipId] = useState(null);
+  //const [tooltipId, setTooltipId] = useState(null);
   const [iconCounts, setIconCounts] = useState({});
 
   // Initialize item counts and styles
@@ -21,12 +21,12 @@ function Tracker() {
   }, []);
 
   // Toggle styling of items and incrementing/decrementing items in the tracker when clicked
-  function handleOpacityToggle(event) {
-    const { id } = event.target;
-    const isLeftClick = event.button === 0; // left click
-    const isRightClick = event.button === 2; // right click
+  function handleOpacityToggle(id, increment) {
+    // const { id } = event.target;
+    // const isLeftClick = event.button === 0; // left click
+    // const isRightClick = event.button === 2; // right click
 
-    if (isLeftClick) {
+    if (increment) {
       if (iconCounts[id] < items.find((item) => item.id === id).max) {
         // Check if count is less than max
         setImageStyles((prevStyles) => ({
@@ -41,7 +41,7 @@ function Tracker() {
           [id]: prevCounts[id] + 1,
         }));
       }
-    } else if (isRightClick && iconCounts[id] > 1) {
+    } else if (!increment && iconCounts[id] > 1) {
       // Check is count greater than 1 on decrement
       setImageStyles((prevStyles) => ({
         ...prevStyles,
@@ -55,7 +55,7 @@ function Tracker() {
         [id]: prevCounts[id] - 1,
       }));
       event.preventDefault(); // Prevent the context menu from appearing
-    } else if (isRightClick && iconCounts[id] === 1) {
+    } else if (!increment && iconCounts[id] === 1) {
       // Fade image if count is 1 and decrementing
       setImageStyles((prevStyles) => ({
         ...prevStyles,
@@ -78,6 +78,19 @@ function Tracker() {
     rows.push(items.slice(i, i + 6));
   }
 
+  // Get mouse wheel scrolling value
+  function handleWheel(event, id) {
+    const increment = event.deltaY < 0; // Scroll up
+    handleOpacityToggle(id, increment);
+    event.preventDefault(); // Prevent default scrolling behavior
+  }
+  // Get mouse click value
+  function handleClick(event, id) {
+    const increment = event.button === 0; // left click
+    //const isRightClick = event.button === 2; // right click
+    handleOpacityToggle(id, increment);
+  }
+
   // Create item tracker
   return (
     <div className="tracker">
@@ -91,17 +104,19 @@ function Tracker() {
                     id={id}
                     style={imageStyles[id]}
                     src={src}
-                    onMouseDown={handleOpacityToggle}
+                    // onMouseDown={handleOpacityToggle}
+                    onMouseDown={(e) => handleClick(e, id)}
+                    onWheel={(e) => handleWheel(e, id)}
                     onContextMenu={(e) => e.preventDefault()}
-                    onMouseEnter={() => setTooltipId(id)}
-                    onMouseLeave={() => setTooltipId(null)}
+                    // onMouseEnter={() => setTooltipId(id)}
+                    // onMouseLeave={() => setTooltipId(null)}
                   />
                   {items.find((item) => item.id === id).max > 1 && (
                     <span className="count tracker-count">
                       {iconCounts[id] > 0 ? iconCounts[id] : ""}
                     </span>
                   )}
-                  {tooltipId === id && <div className="tooltip">{id}</div>}{" "}
+                  {/* {tooltipId === id && <div className="tooltip">{id}</div>}{" "} */}
                 </td>
               ))}
             </tr>

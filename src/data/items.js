@@ -207,7 +207,7 @@ const items = [
     src: "images/crystal_trident.png",
     opacity: 0.5,
     filter: "grayscale(75%)",
-    max: 6,
+    max: 1,
   },
   {
     id: "fire",
